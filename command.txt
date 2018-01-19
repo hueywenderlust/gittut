@@ -1,0 +1,56 @@
+$ git config --global user.name 'hueywen'
+$ git config --global user.email 'hueywen20@gmail.com'
+
+$ git touch <filename> //add file
+
+$ git add . 
+//add everything
+
+
+$ git add <filename> 
+//add specific file
+
+
+$ git add *.html 
+//add files with the same extension
+
+
+$ git rm --cached <filename>
+//remove file
+
+$ git status
+
+
+$ git branch <branchname>
+
+$ git checkout <branchname>
+//switch to another branch
+
+
+$ git commit -m '<filename>'
+
+
+$ git merge <filename>
+//merge
+
+|---------------------------------------|
+|---- create repo on github web --------|
+|---------------------------------------|
+
+$ git remote add origin https://github.com/wenzzai/gittut.git
+
+
+$ git push -u origin master
+
+	>username
+	>password
+
+$ git push 
+//upload to github
+
+$ git pull
+//pull additional files when others commit
+
+
+
+
