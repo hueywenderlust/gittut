@@ -27,7 +27,7 @@ $ git checkout <branchname>
 //switch to another branch
 
 
-$ git commit -m '<filename>'
+$ git commit -m '<descrption>'
 
 
 $ git merge <filename>
@@ -44,6 +44,9 @@ $ git push -u origin master
 
 	>username
 	>password
+
+$ git add .
+$ git commit -m '<descrption>'
 
 $ git push 
 //upload to github
